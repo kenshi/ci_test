@@ -1,0 +1,30 @@
+{
+  "name": "ci_test",
+  "version": "1.0.0",
+  "description": "ci_test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenshi/ci_test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenshi/ci_test/issues"
+  },
+  "homepage": "https://github.com/kenshi/ci_test#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-react": "^7.33.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.4"
+  }
+}
